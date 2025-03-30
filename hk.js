@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.eventNames.port || 5000;
 
 app.get("/", (req, res) => {
-    res.send("Welcome to ShopEasy!");
+    res.send("Welcome to ShopEasy! from HK");
 })
 
 app.listen(PORT,() => {
